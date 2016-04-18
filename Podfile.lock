@@ -1,0 +1,27 @@
+PODS:
+  - Google-API-Client/Common (1.0.422):
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Drive (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - gtm-http-fetcher (1.0.141)
+  - gtm-oauth2 (1.0.126):
+    - gtm-http-fetcher (~> 1.0.141)
+  - Masonry (1.0.0)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - Google-API-Client/Drive
+  - Masonry
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  Google-API-Client: cb712cf122f1d7fda966de4c2bc551324573366c
+  gtm-http-fetcher: 6d4617e7d343b6e4c082b777541c334eb6f5d81e
+  gtm-oauth2: 2a18b824e4f8a02df6cfe987beb59ae9d9697f9d
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+COCOAPODS: 0.39.0
